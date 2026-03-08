@@ -1,43 +1,9 @@
 $(function () {
-  // Nút "Rồi!" → bắn pháo hoa thẳng, không popup
+  // Nút "Mở ra" → bắn pháo hoa thẳng, không popup
   $("#yes").click(function (event) {
     fireworks();
   });
 });
-
-function A() {
-  modal("Hôm nay là 8/3 — Ngày Quốc tế Phụ nữ 🌍", B);
-}
-
-function B() {
-  modal("Ngày dành riêng để tôn vinh những người phụ nữ tuyệt vời 💐", C);
-}
-
-function C() {
-  modal("Như em đó — xinh đẹp, tốt bụng và rất đặc biệt ❤️", D);
-}
-
-function D() {
-  modal("Hôm nay em được phép vui hết mình nhé! 🎉", E);
-}
-
-function E() {
-  modal("Chúc em luôn tươi cười và hạnh phúc mãi mãi! 😊", F);
-}
-
-function F() {
-  modal("Được yêu thương, được trân trọng — em xứng đáng với tất cả! 💝", G);
-}
-
-function G() {
-  modal("Nhân ngày 8/3, xin tặng em một màn pháo hoa thật đẹp! 🎆", H);
-}
-
-function H() {
-  modal("🌹 Chúc mừng ngày 8/3! Yêu em nhiều lắm! 🌹", function () {
-    fireworks();
-  });
-}
 
 function fireworks() {
   $(".page_one").addClass("hide");
